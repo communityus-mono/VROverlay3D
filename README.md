@@ -1,5 +1,5 @@
 # VROverlay3D
-This is a library for overlaying another self-made VR application on the running VR application.
+This is a library for overlaying another self-made VR application on the running Steam VR application.
 These codes are a modification of the following codes(CC0)
 https://sabowl.sakura.ne.jp/gpsnmeajp/unity/vaniiglass/
 https://github.com/gpsnmeajp/EasyOpenVRUtil
