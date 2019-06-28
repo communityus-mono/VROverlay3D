@@ -1,13 +1,16 @@
-# regainerOverlay
-VRオーバーレイバーチャルmidiコントローラーを開発したい
+# VROverlay3D
+This is a library for overlaying another self-made VR application on the running VR application.
+These codes are a modification of the following codes(CC0)
+https://sabowl.sakura.ne.jp/gpsnmeajp/unity/vaniiglass/
+https://github.com/gpsnmeajp/EasyOpenVRUtil
 
-# 初期設定
-ダウンロードしてフォルダをUnityでひらく  
-下記URLを参考にAssetsフォルダ直下に依存ライブラリを置く  
-空間タップできるVRオーバーレイアプリケーションをUnityで作る【コーディングなし】 - Qiita https://qiita.com/gpsnmeajp/items/3b67223f7f11bb6d93c3
+# Prepare
+1. Clone this repository
+1. Import SteamVR Plugin
 
-## 依存ライブラリ
-1. SteamVR Unity Plugin v2
-2. EasyOpenVROverlayForUnity
-3. EasyOpenVRUtil
-4. PositionManagerScript.cs
+# License
+These codes are licensed under CC0.
+http://creativecommons.org/publicdomain/zero/1.0/deed.ja
+
+# Contact
+https://twitter.com/memex_pibo
