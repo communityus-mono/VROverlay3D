@@ -7,6 +7,13 @@ using EasyLazyLibrary;
 public class ControllerPosTracer : MonoBehaviour {
 
     EasyOpenVRUtil util = new EasyOpenVRUtil(); //姿勢取得ライブラリ
+    public enum LR
+    {
+        Left, Right
+    }
+
+    public LR controller;
+
     
     // Use this for initialization
     void Start () {
@@ -31,8 +38,15 @@ public class ControllerPosTracer : MonoBehaviour {
             return;
         }
 
-        var pos = util.GetRightControllerTransform() ;
-
+        EasyOpenVRUtil.Transform pos;
+        if (controller == LR.Left)
+        {
+            pos = util.GetLeftControllerTransform();
+        }
+        else
+        {
+            pos = util.GetRightControllerTransform();
+        }
         this.transform.position = pos.position;
         this.transform.rotation = pos.rotation;
     }
