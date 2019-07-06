@@ -4,12 +4,14 @@ using UnityEngine;
 using EasyLazyLibrary;
 
 
-public class HMDPosTracer : MonoBehaviour {
+public class HMDPosTracer : MonoBehaviour
+{
 
     EasyOpenVRUtil util = new EasyOpenVRUtil(); //姿勢取得ライブラリ
-    
+
     // Use this for initialization
-    void Start () {
+    void Start()
+    {
         //姿勢取得ライブラリを初期化
         if (!util.IsReady())
         {
@@ -19,7 +21,8 @@ public class HMDPosTracer : MonoBehaviour {
     }
 
     // Update is called once per frame
-    void FixedUpdate () {
+    void Update()
+    {
         UpdateCameraTexture();
     }
 
