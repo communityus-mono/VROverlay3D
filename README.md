@@ -5,7 +5,7 @@ https://sabowl.sakura.ne.jp/gpsnmeajp/unity/vaniiglass/
 https://github.com/gpsnmeajp/EasyOpenVRUtil
 
 # Note
-Supports HTC VIVE only
+Supports HTC VIVE / Oculus Rift S only
 
 # Prepare
 1. Clone this repository
